@@ -1,0 +1,127 @@
+body {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+#main-wrapper {
+    text-align: center;
+    font-family: "Lato Bold";
+}
+
+.page {
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.page h1 {
+  text-align: center;
+  font-size: min(5rem, 16vw);
+  font-family: "Lato ExtraBold";
+}
+
+.page h3 {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.page h4 {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 0.65rem;
+}
+
+.page p {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+#page1 {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* TESTING */
+
+.img-wrapper {
+    margin: auto;
+}
+
+.zoom-img-container {
+    overflow: hidden;
+    height: calc(90vw * 0.75);
+    max-width: 90vw;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    border: solid white 10px;
+}
+
+.zoom-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: transform 1s ease-out;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+/* ///////////////////////////// */
+
+#page2link:hover {
+    text-decoration: none;
+}
+
+/*--FONTS--*/
+
+@font-face {
+    font-family: "pt sans reg";
+    src: url("../fonts/PT_Sans/PT_Sans-Web-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato ExtraBold";
+    src: url("../fonts/Lato/Lato-Black.ttf");
+}
